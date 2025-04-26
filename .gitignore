@@ -1,0 +1,39 @@
+# Файлы Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.Python
+
+# Локальные настройки и токены
+.env
+.env.local
+secrets.py
+config.py
+
+# Базы данных и временные файлы
+*.db
+*.sqlite
+*.sqlite3
+locations.db  # Ваша SQLite-база
+/db/
+
+# Логи и кэш
+*.log
+*.cache
+.pytest_cache/
+
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Временные файлы и артефакты
+*.tmp
+*.bak
+*.~lock.*
+
+# Файлы зависимостей (если используете venv)
+venv/
+.env/

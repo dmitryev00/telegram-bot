@@ -27,7 +27,6 @@ def get_data():
     return points
 
 
-
 @contextmanager
 def get_db():
     conn = sqlite3.connect("locations.db")

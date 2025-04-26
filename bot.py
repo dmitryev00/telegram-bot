@@ -3,8 +3,12 @@ import telebot
 import sql
 import map
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+from dotenv import load_dotenv
+import os
 
-bot = telebot.TeleBot('TOKEN')
+
+load_dotenv()
+bot = telebot.TeleBot(os.getenv('BOT_TOKEN'))
 
 locations = []
 
